@@ -14,5 +14,5 @@ var app = new Koa ();
 app.use(wechat(config.wechat));
 
 
-app.listen(1234);
-console.log('listenining:1234')
+app.listen(80);
+console.log('listenining:80')
